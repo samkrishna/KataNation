@@ -32,6 +32,7 @@ I won't lie: [pervasive web searching](https://www.google.com/search?q=project+e
 - [First 150 Project Euler solutions in C#](http://www.mathblog.dk/project-euler-solutions/)
 - [Danny Gallardo's Write-up to his Solution to Project Euler #1](https://dannygtech.wordpress.com/2014/05/20/project-euler-objective-c-solutions/)
 - [Danny Gallardo's Objective-C solutions to Project Euler](https://github.com/dgallardo01/Project-Euler-Objective-C-Solutions)
+- [S. Anand's Euler Solutions](http://www.s-anand.net/euler.html): It seems like he's trying to go for performance in his Python solution sets
 
 ### Other considerations
 
