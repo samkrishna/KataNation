@@ -24,8 +24,10 @@ I'm primarily interested in learning and getting better at problem-solving in th
 
 ### Other considerations
 
-I read these pages, which definitely influenced my thinking on this stuff:
+These pages definitely influenced my thinking on this stuff:
 
 - [King of the Hill on Rosetta Code](https://blog.racket-lang.org/2015/05/king-of-the-hill-on-rosetta-code.html): This was really inspirational in terms of just how much language passion there is in the Racket Community
-- 
-
+- [Why I Don't Do Code Katas](https://hackhands.com/dont-code-katas/): The danger of doing mindless activity and thinking you're improving your skillsets
+- [The Ultimate Code Kata](https://blog.codinghorror.com/the-ultimate-code-kata/): Jeff Atwood's very practical instruction on the right mindset for getting better as a software developer
+- [Practicing Programming](https://sites.google.com/site/steveyegge2/practicing-programming): *"Contrary to what you might believe, merely doing your job every day doesn't qualify as real practice."*
+- [How I Built 180 Websites in 180 days and became a YC Fellowship Founder](https://zube.io/blog/how-i-built-180-websites-in-180-days-and-became-a-yc-fellowship-founder/): Jen Dewalt's crazy and inspirational story about how she went from a non-developer to a YC co-founder.
