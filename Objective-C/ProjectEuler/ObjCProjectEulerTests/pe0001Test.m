@@ -1,5 +1,5 @@
 //
-//  p0001Test.m
+//  pe0001Test.m
 //  ProjectEulerTests
 //
 //  Created by Sam Krishna on 7/4/17.
@@ -9,10 +9,10 @@
 #import "EulerSolution.h"
 #import <XCTest/XCTest.h>
 
-@interface p0001 : NSObject <EulerSolution>
+@interface pe0001 : NSObject <EulerSolution>
 @end
 
-@implementation p0001
+@implementation pe0001
 
 + (NSDecimalNumber *)PEResult
 {
@@ -29,13 +29,13 @@
 
 @end
 
-@interface p0001Test : XCTestCase
+@interface pe0001Test : XCTestCase
 @end
 
-@implementation p0001Test
+@implementation pe0001Test
 
 - (void)testResult {
-    NSDecimalNumber *result = [p0001 PEResult];
+    NSDecimalNumber *result = [pe0001 PEResult];
     NSNumber *check = @(233168);
     XCTAssert([result isEqualToNumber:check], @"This should be %@ (%@)", check, result);
 }

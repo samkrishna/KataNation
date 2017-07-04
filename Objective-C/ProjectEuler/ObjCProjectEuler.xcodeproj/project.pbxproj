@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6FB77E311F0BF9A2006363A4 /* ProjectEuler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB77E271F0BF9A2006363A4 /* ProjectEuler.framework */; };
-		6FB77E381F0BF9A2006363A4 /* ProjectEuler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB77E2A1F0BF9A2006363A4 /* ProjectEuler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FB77E431F0BFD2E006363A4 /* p0001Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB77E421F0BFD2E006363A4 /* p0001Test.m */; };
+		6FB77E311F0BF9A2006363A4 /* ObjCProjectEuler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB77E271F0BF9A2006363A4 /* ObjCProjectEuler.framework */; };
+		6FB77E381F0BF9A2006363A4 /* ObjCProjectEuler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB77E2A1F0BF9A2006363A4 /* ObjCProjectEuler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FB77E431F0BFD2E006363A4 /* pe0001Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB77E421F0BFD2E006363A4 /* pe0001Test.m */; };
 		6FB77E451F0C220D006363A4 /* EulerSolution.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB77E441F0C220D006363A4 /* EulerSolution.h */; };
 		6FB77E481F0C23A6006363A4 /* NSDecimalNumber+LJSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB77E461F0C23A6006363A4 /* NSDecimalNumber+LJSAdditions.h */; };
 		6FB77E491F0C23A6006363A4 /* NSDecimalNumber+LJSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB77E471F0C23A6006363A4 /* NSDecimalNumber+LJSAdditions.m */; };
@@ -27,12 +27,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6FB77E271F0BF9A2006363A4 /* ProjectEuler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProjectEuler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FB77E2A1F0BF9A2006363A4 /* ProjectEuler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectEuler.h; sourceTree = "<group>"; };
+		6FB77E271F0BF9A2006363A4 /* ObjCProjectEuler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjCProjectEuler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB77E2A1F0BF9A2006363A4 /* ObjCProjectEuler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCProjectEuler.h; sourceTree = "<group>"; };
 		6FB77E2B1F0BF9A2006363A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6FB77E301F0BF9A2006363A4 /* ProjectEulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectEulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB77E301F0BF9A2006363A4 /* ObjCProjectEulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjCProjectEulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FB77E371F0BF9A2006363A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6FB77E421F0BFD2E006363A4 /* p0001Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = p0001Test.m; sourceTree = "<group>"; };
+		6FB77E421F0BFD2E006363A4 /* pe0001Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pe0001Test.m; sourceTree = "<group>"; };
 		6FB77E441F0C220D006363A4 /* EulerSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EulerSolution.h; sourceTree = "<group>"; };
 		6FB77E461F0C23A6006363A4 /* NSDecimalNumber+LJSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDecimalNumber+LJSAdditions.h"; path = "../../../../../../singularity/Cocoa/SingularityOne/SingularityOne/Categories/NSDecimalNumber+LJSAdditions.h"; sourceTree = "<group>"; };
 		6FB77E471F0C23A6006363A4 /* NSDecimalNumber+LJSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDecimalNumber+LJSAdditions.m"; path = "../../../../../../singularity/Cocoa/SingularityOne/SingularityOne/Categories/NSDecimalNumber+LJSAdditions.m"; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FB77E311F0BF9A2006363A4 /* ProjectEuler.framework in Frameworks */,
+				6FB77E311F0BF9A2006363A4 /* ObjCProjectEuler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,8 +61,8 @@
 		6FB77E1D1F0BF9A2006363A4 = {
 			isa = PBXGroup;
 			children = (
-				6FB77E291F0BF9A2006363A4 /* ProjectEuler */,
-				6FB77E341F0BF9A2006363A4 /* ProjectEulerTests */,
+				6FB77E291F0BF9A2006363A4 /* ObjCProjectEuler */,
+				6FB77E341F0BF9A2006363A4 /* ObjCProjectEulerTests */,
 				6FB77E281F0BF9A2006363A4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,30 +70,30 @@
 		6FB77E281F0BF9A2006363A4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6FB77E271F0BF9A2006363A4 /* ProjectEuler.framework */,
-				6FB77E301F0BF9A2006363A4 /* ProjectEulerTests.xctest */,
+				6FB77E271F0BF9A2006363A4 /* ObjCProjectEuler.framework */,
+				6FB77E301F0BF9A2006363A4 /* ObjCProjectEulerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6FB77E291F0BF9A2006363A4 /* ProjectEuler */ = {
+		6FB77E291F0BF9A2006363A4 /* ObjCProjectEuler */ = {
 			isa = PBXGroup;
 			children = (
 				6FB77E411F0BF9F4006363A4 /* Support Code */,
-				6FB77E2A1F0BF9A2006363A4 /* ProjectEuler.h */,
+				6FB77E2A1F0BF9A2006363A4 /* ObjCProjectEuler.h */,
 				6FB77E2B1F0BF9A2006363A4 /* Info.plist */,
 			);
-			path = ProjectEuler;
+			path = ObjCProjectEuler;
 			sourceTree = "<group>";
 		};
-		6FB77E341F0BF9A2006363A4 /* ProjectEulerTests */ = {
+		6FB77E341F0BF9A2006363A4 /* ObjCProjectEulerTests */ = {
 			isa = PBXGroup;
 			children = (
 				6FB77E4A1F0C28E9006363A4 /* Answers.txt */,
-				6FB77E421F0BFD2E006363A4 /* p0001Test.m */,
+				6FB77E421F0BFD2E006363A4 /* pe0001Test.m */,
 				6FB77E371F0BF9A2006363A4 /* Info.plist */,
 			);
-			path = ProjectEulerTests;
+			path = ObjCProjectEulerTests;
 			sourceTree = "<group>";
 		};
 		6FB77E411F0BF9F4006363A4 /* Support Code */ = {
@@ -114,7 +114,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FB77E481F0C23A6006363A4 /* NSDecimalNumber+LJSAdditions.h in Headers */,
-				6FB77E381F0BF9A2006363A4 /* ProjectEuler.h in Headers */,
+				6FB77E381F0BF9A2006363A4 /* ObjCProjectEuler.h in Headers */,
 				6FB77E451F0C220D006363A4 /* EulerSolution.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,9 +122,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6FB77E261F0BF9A2006363A4 /* ProjectEuler */ = {
+		6FB77E261F0BF9A2006363A4 /* ObjCProjectEuler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6FB77E3B1F0BF9A2006363A4 /* Build configuration list for PBXNativeTarget "ProjectEuler" */;
+			buildConfigurationList = 6FB77E3B1F0BF9A2006363A4 /* Build configuration list for PBXNativeTarget "ObjCProjectEuler" */;
 			buildPhases = (
 				6FB77E221F0BF9A2006363A4 /* Sources */,
 				6FB77E231F0BF9A2006363A4 /* Frameworks */,
@@ -135,14 +135,14 @@
 			);
 			dependencies = (
 			);
-			name = ProjectEuler;
+			name = ObjCProjectEuler;
 			productName = ProjectEuler;
-			productReference = 6FB77E271F0BF9A2006363A4 /* ProjectEuler.framework */;
+			productReference = 6FB77E271F0BF9A2006363A4 /* ObjCProjectEuler.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6FB77E2F1F0BF9A2006363A4 /* ProjectEulerTests */ = {
+		6FB77E2F1F0BF9A2006363A4 /* ObjCProjectEulerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6FB77E3E1F0BF9A2006363A4 /* Build configuration list for PBXNativeTarget "ProjectEulerTests" */;
+			buildConfigurationList = 6FB77E3E1F0BF9A2006363A4 /* Build configuration list for PBXNativeTarget "ObjCProjectEulerTests" */;
 			buildPhases = (
 				6FB77E2C1F0BF9A2006363A4 /* Sources */,
 				6FB77E2D1F0BF9A2006363A4 /* Frameworks */,
@@ -153,9 +153,9 @@
 			dependencies = (
 				6FB77E331F0BF9A2006363A4 /* PBXTargetDependency */,
 			);
-			name = ProjectEulerTests;
+			name = ObjCProjectEulerTests;
 			productName = ProjectEulerTests;
-			productReference = 6FB77E301F0BF9A2006363A4 /* ProjectEulerTests.xctest */;
+			productReference = 6FB77E301F0BF9A2006363A4 /* ObjCProjectEulerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -175,7 +175,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6FB77E211F0BF9A2006363A4 /* Build configuration list for PBXProject "ProjectEuler" */;
+			buildConfigurationList = 6FB77E211F0BF9A2006363A4 /* Build configuration list for PBXProject "ObjCProjectEuler" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -187,8 +187,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6FB77E261F0BF9A2006363A4 /* ProjectEuler */,
-				6FB77E2F1F0BF9A2006363A4 /* ProjectEulerTests */,
+				6FB77E261F0BF9A2006363A4 /* ObjCProjectEuler */,
+				6FB77E2F1F0BF9A2006363A4 /* ObjCProjectEulerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -224,7 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FB77E431F0BFD2E006363A4 /* p0001Test.m in Sources */,
+				6FB77E431F0BFD2E006363A4 /* pe0001Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,7 +233,7 @@
 /* Begin PBXTargetDependency section */
 		6FB77E331F0BF9A2006363A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6FB77E261F0BF9A2006363A4 /* ProjectEuler */;
+			target = 6FB77E261F0BF9A2006363A4 /* ObjCProjectEuler */;
 			targetProxy = 6FB77E321F0BF9A2006363A4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -354,7 +354,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = ProjectEuler/Info.plist;
+				INFOPLIST_FILE = ObjCProjectEuler/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sectormobile.ProjectEuler;
@@ -373,7 +373,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = ProjectEuler/Info.plist;
+				INFOPLIST_FILE = ObjCProjectEuler/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sectormobile.ProjectEuler;
@@ -386,7 +386,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = ProjectEulerTests/Info.plist;
+				INFOPLIST_FILE = ObjCProjectEulerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sectormobile.ProjectEulerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -397,7 +397,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = ProjectEulerTests/Info.plist;
+				INFOPLIST_FILE = ObjCProjectEulerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sectormobile.ProjectEulerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -407,7 +407,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6FB77E211F0BF9A2006363A4 /* Build configuration list for PBXProject "ProjectEuler" */ = {
+		6FB77E211F0BF9A2006363A4 /* Build configuration list for PBXProject "ObjCProjectEuler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6FB77E391F0BF9A2006363A4 /* Debug */,
@@ -416,21 +416,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6FB77E3B1F0BF9A2006363A4 /* Build configuration list for PBXNativeTarget "ProjectEuler" */ = {
+		6FB77E3B1F0BF9A2006363A4 /* Build configuration list for PBXNativeTarget "ObjCProjectEuler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6FB77E3C1F0BF9A2006363A4 /* Debug */,
 				6FB77E3D1F0BF9A2006363A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		6FB77E3E1F0BF9A2006363A4 /* Build configuration list for PBXNativeTarget "ProjectEulerTests" */ = {
+		6FB77E3E1F0BF9A2006363A4 /* Build configuration list for PBXNativeTarget "ObjCProjectEulerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6FB77E3F1F0BF9A2006363A4 /* Debug */,
 				6FB77E401F0BF9A2006363A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
