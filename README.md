@@ -22,6 +22,17 @@ I'm primarily interested in learning and getting better at problem-solving in th
 - [Racket](http://racket-lang.org)
 - [Swift](https://swift.org)
 
+### Some Solution Sites
+
+I won't lie: [pervasive web searching](https://www.google.com/search?q=project+euler+solutions&oq=project+euler+solutions) has made it infinitely easier to learn things, and the dark side of that ability to learn is the ability to cheat. Rather than pretend to be all noble about it, I'm posting here some sites that I've found that have solutions to the various katas listed above.
+
+- [Project Nayuki](https://www.nayuki.io/page/project-euler-solutions): This guy has been crushing it in terms of Project Euler solutions. He's got stuff for Python, Java, Haskell **AND** Mathematica. Wow.
+- [Project Nayuki repo](https://github.com/nayuki/Project-Euler-solutions)
+- [Answers.txt from Project Nayuki](https://github.com/nayuki/Project-Euler-solutions/blob/master/Answers.txt)
+- [First 150 Project Euler solutions in C#](http://www.mathblog.dk/project-euler-solutions/)
+- [Danny Gallardo's Write-up to his Solution to Project Euler #1](https://dannygtech.wordpress.com/2014/05/20/project-euler-objective-c-solutions/)
+- [Danny Gallardo's Objective-C solutions to Project Euler](https://github.com/dgallardo01/Project-Euler-Objective-C-Solutions)
+
 ### Other considerations
 
 These pages definitely influenced my thinking on this stuff:
