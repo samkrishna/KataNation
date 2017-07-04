@@ -46,3 +46,8 @@ These pages definitely influenced my thinking on this stuff:
 ### Miscellaneous
 
 - [Awesome Katas](https://github.com/gamontalvo/awesome-katas): Another curated kata list that I like
+
+# License
+
+All code is licensed under the MIT license. Do with it as you will.
+
