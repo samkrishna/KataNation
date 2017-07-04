@@ -31,3 +31,7 @@ These pages definitely influenced my thinking on this stuff:
 - [The Ultimate Code Kata](https://blog.codinghorror.com/the-ultimate-code-kata/): Jeff Atwood's very practical instruction on the right mindset for getting better as a software developer
 - [Practicing Programming](https://sites.google.com/site/steveyegge2/practicing-programming): *"Contrary to what you might believe, merely doing your job every day doesn't qualify as real practice."*
 - [How I Built 180 Websites in 180 days and became a YC Fellowship Founder](https://zube.io/blog/how-i-built-180-websites-in-180-days-and-became-a-yc-fellowship-founder/): Jen Dewalt's crazy and inspirational story about how she went from a non-developer to a YC co-founder.
+
+### Miscellaneous
+
+- [Awesome Katas](https://github.com/gamontalvo/awesome-katas): Another curated kata list that I like
