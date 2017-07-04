@@ -77,7 +77,7 @@
 		6FB77E291F0BF9A2006363A4 /* ProjectEuler */ = {
 			isa = PBXGroup;
 			children = (
-				6FB77E411F0BF9F4006363A4 /* Solutions */,
+				6FB77E411F0BF9F4006363A4 /* Support Code */,
 				6FB77E2A1F0BF9A2006363A4 /* ProjectEuler.h */,
 				6FB77E2B1F0BF9A2006363A4 /* Info.plist */,
 			);
@@ -93,14 +93,14 @@
 			path = ProjectEulerTests;
 			sourceTree = "<group>";
 		};
-		6FB77E411F0BF9F4006363A4 /* Solutions */ = {
+		6FB77E411F0BF9F4006363A4 /* Support Code */ = {
 			isa = PBXGroup;
 			children = (
 				6FB77E441F0C220D006363A4 /* EulerSolution.h */,
 				6FB77E461F0C23A6006363A4 /* NSDecimalNumber+LJSAdditions.h */,
 				6FB77E471F0C23A6006363A4 /* NSDecimalNumber+LJSAdditions.m */,
 			);
-			path = Solutions;
+			path = "Support Code";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
