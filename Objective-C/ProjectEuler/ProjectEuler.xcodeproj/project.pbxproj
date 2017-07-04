@@ -13,6 +13,7 @@
 		6FB77E451F0C220D006363A4 /* EulerSolution.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB77E441F0C220D006363A4 /* EulerSolution.h */; };
 		6FB77E481F0C23A6006363A4 /* NSDecimalNumber+LJSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB77E461F0C23A6006363A4 /* NSDecimalNumber+LJSAdditions.h */; };
 		6FB77E491F0C23A6006363A4 /* NSDecimalNumber+LJSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB77E471F0C23A6006363A4 /* NSDecimalNumber+LJSAdditions.m */; };
+		6FB77E4B1F0C28E9006363A4 /* Answers.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6FB77E4A1F0C28E9006363A4 /* Answers.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		6FB77E441F0C220D006363A4 /* EulerSolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EulerSolution.h; sourceTree = "<group>"; };
 		6FB77E461F0C23A6006363A4 /* NSDecimalNumber+LJSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDecimalNumber+LJSAdditions.h"; path = "../../../../../../singularity/Cocoa/SingularityOne/SingularityOne/Categories/NSDecimalNumber+LJSAdditions.h"; sourceTree = "<group>"; };
 		6FB77E471F0C23A6006363A4 /* NSDecimalNumber+LJSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDecimalNumber+LJSAdditions.m"; path = "../../../../../../singularity/Cocoa/SingularityOne/SingularityOne/Categories/NSDecimalNumber+LJSAdditions.m"; sourceTree = "<group>"; };
+		6FB77E4A1F0C28E9006363A4 /* Answers.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Answers.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		6FB77E341F0BF9A2006363A4 /* ProjectEulerTests */ = {
 			isa = PBXGroup;
 			children = (
+				6FB77E4A1F0C28E9006363A4 /* Answers.txt */,
 				6FB77E421F0BFD2E006363A4 /* p0001Test.m */,
 				6FB77E371F0BF9A2006363A4 /* Info.plist */,
 			);
@@ -195,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FB77E4B1F0C28E9006363A4 /* Answers.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
