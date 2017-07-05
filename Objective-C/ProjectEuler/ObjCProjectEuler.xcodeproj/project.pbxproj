@@ -15,6 +15,7 @@
 		6FB77E491F0C23A6006363A4 /* NSDecimalNumber+LJSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB77E471F0C23A6006363A4 /* NSDecimalNumber+LJSAdditions.m */; };
 		6FB77E4B1F0C28E9006363A4 /* Answers.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6FB77E4A1F0C28E9006363A4 /* Answers.txt */; };
 		6FB77E4F1F0C328E006363A4 /* pe0002Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB77E4E1F0C328E006363A4 /* pe0002Test.m */; };
+		6FB77E511F0C3D6F006363A4 /* pe0003Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB77E501F0C3D6F006363A4 /* pe0003Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		6FB77E471F0C23A6006363A4 /* NSDecimalNumber+LJSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDecimalNumber+LJSAdditions.m"; path = "../../../../../../singularity/Cocoa/SingularityOne/SingularityOne/Categories/NSDecimalNumber+LJSAdditions.m"; sourceTree = "<group>"; };
 		6FB77E4A1F0C28E9006363A4 /* Answers.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Answers.txt; sourceTree = "<group>"; };
 		6FB77E4E1F0C328E006363A4 /* pe0002Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pe0002Test.m; sourceTree = "<group>"; };
+		6FB77E501F0C3D6F006363A4 /* pe0003Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pe0003Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				6FB77E4A1F0C28E9006363A4 /* Answers.txt */,
 				6FB77E421F0BFD2E006363A4 /* pe0001Test.m */,
 				6FB77E4E1F0C328E006363A4 /* pe0002Test.m */,
+				6FB77E501F0C3D6F006363A4 /* pe0003Test.m */,
 				6FB77E371F0BF9A2006363A4 /* Info.plist */,
 			);
 			path = ObjCProjectEulerTests;
@@ -227,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FB77E511F0C3D6F006363A4 /* pe0003Test.m in Sources */,
 				6FB77E4F1F0C328E006363A4 /* pe0002Test.m in Sources */,
 				6FB77E431F0BFD2E006363A4 /* pe0001Test.m in Sources */,
 			);
