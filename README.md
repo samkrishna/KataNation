@@ -8,7 +8,7 @@ Here are a few "Coda Kata"-style sites that look pretty cool:
 - [Code Kata](http://codekata.com): The inspiration for the name
 - [Project Euler](https://projecteuler.net/): One of the original Math+CS puzzle site
 - [Rosetta Code](http://rosettacode.org/wiki/Rosetta_Code): A very good measure of how much hard-core passion a language has by all the implemented tasks
-- [Exercism](http://exercism.io)
+- [Exercism](http://exercism.io): Has some really cool problem spaces and also has submission for automated feedback (BETA)
 
 ### Why am I doing this? 
 
