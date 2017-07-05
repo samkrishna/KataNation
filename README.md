@@ -3,11 +3,12 @@ A curated site for awesome Code Kata-type exercises
 
 # The List
 
-Here are 3 "Coda Kata"-style sites that I'm interested in (and that I got tired of Googling for whenever my memory triggered me to think about it):
+Here are a few "Coda Kata"-style sites that look pretty cool:
 
 - [Code Kata](http://codekata.com): The inspiration for the name
 - [Project Euler](https://projecteuler.net/): One of the original Math+CS puzzle site
 - [Rosetta Code](http://rosettacode.org/wiki/Rosetta_Code): A very good measure of how much hard-core passion a language has by all the implemented tasks
+- [Exercism](http://exercism.io)
 
 ### Why am I doing this? 
 
