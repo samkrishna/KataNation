@@ -18,3 +18,4 @@ FOUNDATION_EXPORT const unsigned char AdventOfCode_2015VersionString[];
 #import <AdventOfCode_2015/Day01.h>
 #import <AdventOfCode_2015/Day02.h>
 #import <AdventOfCode_2015/Day03.h>
+#import <AdventOfCode_2015/Day04.h>

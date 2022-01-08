@@ -44,6 +44,7 @@
     NSString *inputString = [self inputStringForClassName:@"Day03"];
     Day03 *d = [Day03 new];
 
+    // Part a
     [d fillGiftCountMatrixForString:inputString];
 
     NSUInteger giftedHousesCount = 0;
@@ -72,6 +73,24 @@
     }
 
     NSLog(@"With Robot helper: gifted houses count = %lu", giftedHousesCount);
+}
+
+- (void)testDay04 {
+    NSString *input = @"iwrupvqb";
+    NSString *hook;
+
+    for (NSUInteger i = 0; i < NSNotFound; i++) {
+        NSString *test = [NSString stringWithFormat:@"%@%lu", input, i];
+        NSString *hash = [test md5String];
+
+        NSString *catch = [hash substringWithRange:NSMakeRange(0, 6)];
+        if ([catch isEqualToString:@"000000"]) {
+            hook = [NSString stringWithFormat:@"%lu", i];
+            break;
+        }
+    }
+
+    NSLog(@"hook is %@", hook);
 }
 
 @end
