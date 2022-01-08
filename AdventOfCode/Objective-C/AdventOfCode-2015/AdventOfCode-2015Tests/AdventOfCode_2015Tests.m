@@ -40,4 +40,38 @@
     NSLog(@"For Day 02: ribbon footage = %lu", ribbonFootage);
 }
 
+- (void)testDay03 {
+    NSString *inputString = [self inputStringForClassName:@"Day03"];
+    Day03 *d = [Day03 new];
+
+    [d fillGiftCountMatrixForString:inputString];
+
+    NSUInteger giftedHousesCount = 0;
+
+    for (NSUInteger x = 0; x < 1000; x++) {
+        for (NSUInteger y = 0; y < 1000; y++) {
+            if ([d countForX:x Y:y] > 0) {
+                giftedHousesCount++;
+            }
+        }
+    }
+
+    NSLog(@"Santa alone: gifted houses count = %lu", giftedHousesCount);
+
+    // Reset everything for part b
+    d = [Day03 new];
+    [d fillGiftCountMatrixWithRobotHelperForString:inputString];
+    giftedHousesCount = 0;
+
+    for (NSUInteger x = 0; x < 1000; x++) {
+        for (NSUInteger y = 0; y < 1000; y++) {
+            if ([d countForX:x Y:y] > 0) {
+                giftedHousesCount++;
+            }
+        }
+    }
+
+    NSLog(@"With Robot helper: gifted houses count = %lu", giftedHousesCount);
+}
+
 @end
