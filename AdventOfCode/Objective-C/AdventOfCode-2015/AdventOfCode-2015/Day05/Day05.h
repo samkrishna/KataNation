@@ -11,6 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Day05 : NSObject
 
++ (BOOL)partAisNiceForString:(NSString *)line;
 + (BOOL)partBisNiceForString:(NSString *)line;
 
 @end

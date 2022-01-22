@@ -133,25 +133,7 @@
     __block NSUInteger niceCount = 0;
 
     [input enumerateLinesUsingBlock:^(NSString * _Nonnull line, BOOL * _Nonnull stop) {
-        NSArray *vowels = [line arrayOfCaptureSubstringsMatchedByRegex:@"a|e|i|o|u" options:RKXCaseless];
-        if (vowels.count < 3) { return; }
-
-        __block BOOL doubleNice = NO;
-        NSArray *testArray = line.characterArray;
-        [line.characterArray enumerateObjectsUsingBlock:^(NSString * _Nonnull c, NSUInteger idx, BOOL * _Nonnull stop) {
-            if (idx > 0) {
-                if (idx > 0 && [c isEqualToString:testArray[idx - 1]]) {
-                    *stop = YES;
-                    doubleNice = YES;
-                }
-            }
-        }];
-
-        if (!doubleNice) { return; }
-
-        if (![line isMatchedByRegex:@"ab|cd|pq|xy" options:RKXCaseless]) {
-            niceCount++;
-        }
+        niceCount += [Day05 partAisNiceForString:line] ? 1 : 0;
     }];
 
     NSLog(@"Nice Count: %lu", niceCount);
