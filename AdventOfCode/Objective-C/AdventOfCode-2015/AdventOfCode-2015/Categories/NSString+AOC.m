@@ -1,14 +1,14 @@
 //
-//  NSString+MD5.m
+//  NSString+AOC.m
 //  AdventOfCode-2015
 //
-//  Created by Sam Krishna on 1/8/22.
+//  Created by Sam Krishna on 1/15/22.
 //
 
-#import "NSString+MD5.h"
 #import <CommonCrypto/CommonDigest.h>
+#import "NSString+AOC.h"
 
-@implementation NSString (MD5)
+@implementation NSString (AOC)
 
 - (NSString *)md5String {
     const char *cStr = [self UTF8String];
@@ -21,6 +21,17 @@
         result[8], result[9], result[10], result[11],
         result[12], result[13], result[14], result[15]
     ];
+}
+
+- (NSArray *)characterArray {
+    NSMutableArray *chars = [NSMutableArray array];
+
+    for (NSUInteger i = 0; i < self.length; i++) {
+        NSString *c = [NSString stringWithFormat:@"%c", [self characterAtIndex:i]];
+        [chars addObject:c];
+    }
+
+    return [chars copy];
 }
 
 @end

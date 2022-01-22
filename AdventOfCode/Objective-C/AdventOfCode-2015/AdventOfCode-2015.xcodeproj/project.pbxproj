@@ -13,15 +13,20 @@
 		6F7DEF0E27838ED3001755E1 /* Day02.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F7DEF0C27838ED3001755E1 /* Day02.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F7DEF0F27838ED3001755E1 /* Day02.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7DEF0D27838ED3001755E1 /* Day02.m */; };
 		6F7DEF1127838EDF001755E1 /* Day02.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F7DEF1027838EDF001755E1 /* Day02.txt */; };
-		6F8EC51D278A323A00494A0C /* Day04.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8EC51B278A323A00494A0C /* Day04.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F8EC51E278A323A00494A0C /* Day04.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8EC51C278A323A00494A0C /* Day04.m */; };
-		6F8EC52E278A3A0000494A0C /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8EC52C278A3A0000494A0C /* NSString+MD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F8EC52F278A3A0000494A0C /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8EC52D278A3A0000494A0C /* NSString+MD5.m */; };
 		6FF7E7B22789E83B00C5295A /* Day03.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6FF7E7B12789E83B00C5295A /* Day03.txt */; };
 		6FF7E7B52789E86400C5295A /* Day03.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF7E7B32789E86400C5295A /* Day03.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FF7E7B62789E86400C5295A /* Day03.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7E7B42789E86400C5295A /* Day03.m */; };
 		6FF7E7B72789EAE500C5295A /* Day01.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF7E7B02789E7B400C5295A /* Day01.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FF7E7B82789EB0900C5295A /* Day01.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7E7AE2789E7B400C5295A /* Day01.m */; };
+		6FFBF95327935D49003B1739 /* Day05.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FFBF95127935D49003B1739 /* Day05.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FFBF95427935D49003B1739 /* Day05.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFBF95227935D49003B1739 /* Day05.m */; };
+		6FFBF95727935D99003B1739 /* NSString+AOC.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FFBF95527935D99003B1739 /* NSString+AOC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FFBF95827935D99003B1739 /* NSString+AOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFBF95627935D99003B1739 /* NSString+AOC.m */; };
+		6FFBF95B27935EB8003B1739 /* Day04.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FFBF95927935EB8003B1739 /* Day04.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FFBF95C27935EB8003B1739 /* Day04.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFBF95A27935EB8003B1739 /* Day04.m */; };
+		6FFBF96127936064003B1739 /* Day05.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6FFBF95F2793604A003B1739 /* Day05.txt */; };
+		6FFBF96427936108003B1739 /* RegexKitX.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FFBF96227936108003B1739 /* RegexKitX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FFBF96527936108003B1739 /* RegexKitX.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFBF96327936108003B1739 /* RegexKitX.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,18 +47,23 @@
 		6F7DEF0C27838ED3001755E1 /* Day02.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day02.h; sourceTree = "<group>"; };
 		6F7DEF0D27838ED3001755E1 /* Day02.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day02.m; sourceTree = "<group>"; };
 		6F7DEF1027838EDF001755E1 /* Day02.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day02.txt; sourceTree = "<group>"; };
-		6F8EC51B278A323A00494A0C /* Day04.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day04.h; sourceTree = "<group>"; };
-		6F8EC51C278A323A00494A0C /* Day04.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day04.m; sourceTree = "<group>"; };
 		6F8EC524278A35EE00494A0C /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "../../../../../../../../usr/local/Cellar/openssl@1.1/1.1.1m/lib/libcrypto.a"; sourceTree = "<group>"; };
 		6F8EC525278A35EE00494A0C /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = "../../../../../../../../usr/local/Cellar/openssl@1.1/1.1.1m/lib/libssl.a"; sourceTree = "<group>"; };
-		6F8EC52C278A3A0000494A0C /* NSString+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
-		6F8EC52D278A3A0000494A0C /* NSString+MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 		6FF7E7AE2789E7B400C5295A /* Day01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day01.m; sourceTree = "<group>"; };
 		6FF7E7AF2789E7B400C5295A /* Day01.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day01.txt; sourceTree = "<group>"; };
 		6FF7E7B02789E7B400C5295A /* Day01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day01.h; sourceTree = "<group>"; };
 		6FF7E7B12789E83B00C5295A /* Day03.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day03.txt; sourceTree = "<group>"; };
 		6FF7E7B32789E86400C5295A /* Day03.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day03.h; sourceTree = "<group>"; };
 		6FF7E7B42789E86400C5295A /* Day03.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day03.m; sourceTree = "<group>"; };
+		6FFBF95127935D49003B1739 /* Day05.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day05.h; sourceTree = "<group>"; };
+		6FFBF95227935D49003B1739 /* Day05.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day05.m; sourceTree = "<group>"; };
+		6FFBF95527935D99003B1739 /* NSString+AOC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+AOC.h"; sourceTree = "<group>"; };
+		6FFBF95627935D99003B1739 /* NSString+AOC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+AOC.m"; sourceTree = "<group>"; };
+		6FFBF95927935EB8003B1739 /* Day04.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day04.h; sourceTree = "<group>"; };
+		6FFBF95A27935EB8003B1739 /* Day04.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day04.m; sourceTree = "<group>"; };
+		6FFBF95F2793604A003B1739 /* Day05.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Day05.txt; sourceTree = "<group>"; };
+		6FFBF96227936108003B1739 /* RegexKitX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitX.h; sourceTree = "<group>"; };
+		6FFBF96327936108003B1739 /* RegexKitX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitX.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +108,12 @@
 			isa = PBXGroup;
 			children = (
 				6F7DEEEA2783861B001755E1 /* AdventOfCode_2015.h */,
+				6FFBF95D27935F6E003B1739 /* Categories */,
 				6FF7E7AD2789E7B400C5295A /* Day01 */,
 				6F7DEF0B27838EAA001755E1 /* Day02 */,
 				6FF7E7AC2789E78F00C5295A /* Day 03 */,
 				6F8EC51A278A321F00494A0C /* Day 04 */,
+				6FFBF95027935D17003B1739 /* Day05 */,
 			);
 			path = "AdventOfCode-2015";
 			sourceTree = "<group>";
@@ -127,10 +139,8 @@
 		6F8EC51A278A321F00494A0C /* Day 04 */ = {
 			isa = PBXGroup;
 			children = (
-				6F8EC51B278A323A00494A0C /* Day04.h */,
-				6F8EC51C278A323A00494A0C /* Day04.m */,
-				6F8EC52C278A3A0000494A0C /* NSString+MD5.h */,
-				6F8EC52D278A3A0000494A0C /* NSString+MD5.m */,
+				6FFBF95927935EB8003B1739 /* Day04.h */,
+				6FFBF95A27935EB8003B1739 /* Day04.m */,
 			);
 			path = "Day 04";
 			sourceTree = "<group>";
@@ -164,6 +174,27 @@
 			path = Day01;
 			sourceTree = "<group>";
 		};
+		6FFBF95027935D17003B1739 /* Day05 */ = {
+			isa = PBXGroup;
+			children = (
+				6FFBF95127935D49003B1739 /* Day05.h */,
+				6FFBF95227935D49003B1739 /* Day05.m */,
+				6FFBF95F2793604A003B1739 /* Day05.txt */,
+			);
+			path = Day05;
+			sourceTree = "<group>";
+		};
+		6FFBF95D27935F6E003B1739 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				6FFBF95527935D99003B1739 /* NSString+AOC.h */,
+				6FFBF95627935D99003B1739 /* NSString+AOC.m */,
+				6FFBF96227936108003B1739 /* RegexKitX.h */,
+				6FFBF96327936108003B1739 /* RegexKitX.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -171,12 +202,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F8EC51D278A323A00494A0C /* Day04.h in Headers */,
+				6FFBF95327935D49003B1739 /* Day05.h in Headers */,
+				6FFBF95727935D99003B1739 /* NSString+AOC.h in Headers */,
 				6FF7E7B72789EAE500C5295A /* Day01.h in Headers */,
-				6F8EC52E278A3A0000494A0C /* NSString+MD5.h in Headers */,
 				6FF7E7B52789E86400C5295A /* Day03.h in Headers */,
+				6FFBF96427936108003B1739 /* RegexKitX.h in Headers */,
 				6F7DEF0E27838ED3001755E1 /* Day02.h in Headers */,
 				6F7DEEF82783861B001755E1 /* AdventOfCode_2015.h in Headers */,
+				6FFBF95B27935EB8003B1739 /* Day04.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +295,7 @@
 			files = (
 				6FF7E7B22789E83B00C5295A /* Day03.txt in Resources */,
 				6F7DEF1127838EDF001755E1 /* Day02.txt in Resources */,
+				6FFBF96127936064003B1739 /* Day05.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,11 +313,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F8EC52F278A3A0000494A0C /* NSString+MD5.m in Sources */,
-				6F8EC51E278A323A00494A0C /* Day04.m in Sources */,
 				6FF7E7B82789EB0900C5295A /* Day01.m in Sources */,
+				6FFBF95427935D49003B1739 /* Day05.m in Sources */,
+				6FFBF95C27935EB8003B1739 /* Day04.m in Sources */,
 				6F7DEF0F27838ED3001755E1 /* Day02.m in Sources */,
 				6FF7E7B62789E86400C5295A /* Day03.m in Sources */,
+				6FFBF95827935D99003B1739 /* NSString+AOC.m in Sources */,
+				6FFBF96527936108003B1739 /* RegexKitX.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
