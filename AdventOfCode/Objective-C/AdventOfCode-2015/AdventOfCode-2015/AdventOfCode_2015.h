@@ -19,3 +19,7 @@ FOUNDATION_EXPORT const unsigned char AdventOfCode_2015VersionString[];
 #import <AdventOfCode_2015/Day02.h>
 #import <AdventOfCode_2015/Day03.h>
 #import <AdventOfCode_2015/Day04.h>
+#import <AdventOfCode_2015/Day05.h>
+
+#import <AdventOfCode_2015/NSString+AOC.h>
+#import <AdventOfCode_2015/RegexKitX.h>

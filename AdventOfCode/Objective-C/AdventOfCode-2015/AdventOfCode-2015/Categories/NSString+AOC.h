@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 // Got this from: https://stackoverflow.com/a/2018626/14173138
 - (NSString *)md5String;
 
-- (NSArray *)characterArray;
+- (NSArray<NSString *> *)characterArray;
 
 @end
 

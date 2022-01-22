@@ -79,7 +79,21 @@
     NSString *input = @"iwrupvqb";
     NSString *hook;
 
+    // Part a
     for (NSUInteger i = 0; i < NSNotFound; i++) {
+        NSString *test = [NSString stringWithFormat:@"%@%lu", input, i];
+        NSString *hash = [test md5String];
+
+        NSString *catch = [hash substringWithRange:NSMakeRange(0, 6)];
+        if ([catch isEqualToString:@"00000"]) {
+            hook = [NSString stringWithFormat:@"%lu", i];
+            break;
+        }
+    }
+
+    NSLog(@"Part a: hook is %@", hook);
+
+    for (NSUInteger i = 1000000; i < NSNotFound; i++) {
         NSString *test = [NSString stringWithFormat:@"%@%lu", input, i];
         NSString *hash = [test md5String];
 
@@ -90,7 +104,80 @@
         }
     }
 
-    NSLog(@"hook is %@", hook);
+    NSLog(@"Part b: hook is %@", hook);
+}
+
+- (void)testDay05Sampler {
+    NSString *sampler = @"ugknbfddgicrmopn";
+    NSArray *vowels = [sampler arrayOfCaptureSubstringsMatchedByRegex:@"a|e|i|o|u" options:RKXCaseless];
+    XCTAssert(vowels.count >= 3);
+
+    __block BOOL doubleNice = NO;
+    NSArray *testArray = sampler.characterArray;
+    [sampler.characterArray enumerateObjectsUsingBlock:^(NSString * _Nonnull c, NSUInteger idx, BOOL * _Nonnull stop) {
+        if (idx > 0) {
+            if (idx > 0 && [c isEqualToString:testArray[idx - 1]]) {
+                *stop = YES;
+                doubleNice = YES;
+            }
+        }
+    }];
+
+    XCTAssert(doubleNice);
+
+    XCTAssertFalse([sampler isMatchedByRegex:@"ab|cd|pq|xy" options:RKXCaseless]);
+}
+
+- (void)testDay05PartA {
+    NSString *input = [self inputStringForClassName:@"Day05"];
+    __block NSUInteger niceCount = 0;
+
+    [input enumerateLinesUsingBlock:^(NSString * _Nonnull line, BOOL * _Nonnull stop) {
+        NSArray *vowels = [line arrayOfCaptureSubstringsMatchedByRegex:@"a|e|i|o|u" options:RKXCaseless];
+        if (vowels.count < 3) { return; }
+
+        __block BOOL doubleNice = NO;
+        NSArray *testArray = line.characterArray;
+        [line.characterArray enumerateObjectsUsingBlock:^(NSString * _Nonnull c, NSUInteger idx, BOOL * _Nonnull stop) {
+            if (idx > 0) {
+                if (idx > 0 && [c isEqualToString:testArray[idx - 1]]) {
+                    *stop = YES;
+                    doubleNice = YES;
+                }
+            }
+        }];
+
+        if (!doubleNice) { return; }
+
+        if (![line isMatchedByRegex:@"ab|cd|pq|xy" options:RKXCaseless]) {
+            niceCount++;
+        }
+    }];
+
+    NSLog(@"Nice Count: %lu", niceCount);
+}
+
+- (void)testDay05PartB {
+    NSArray *input = @[
+        @"qjhvhtzxzqqjkmpb",
+        @"xxyxx",
+        @"uurcxstgmygtbstg",
+        @"ieodomkazucvgmuy"
+    ];
+
+    XCTAssert([Day05 partBisNiceForString:input[0]]);
+    XCTAssert([Day05 partBisNiceForString:input[1]]);
+    XCTAssertFalse([Day05 partBisNiceForString:input[2]]);
+    XCTAssertFalse([Day05 partBisNiceForString:input[3]]);
+
+    NSString *lines = [self inputStringForClassName:@"Day05"];
+    __block NSUInteger niceCount = 0;
+
+    [lines enumerateLinesUsingBlock:^(NSString * _Nonnull line, BOOL * _Nonnull stop) {
+        niceCount += [Day05 partBisNiceForString:line] ? 1 : 0;
+    }];
+
+    NSLog(@"Part B: niceCount = %lu", niceCount);
 }
 
 @end
